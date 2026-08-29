@@ -1,0 +1,14 @@
+# Ignore git metadata and editor files
+.git
+.gitignore
+.vscode
+.idea
+
+# Ignore local artifacts and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Keep only required runtime files
+# (source.txt and puzzle_solver.rb are copied explicitly in Dockerfile)
